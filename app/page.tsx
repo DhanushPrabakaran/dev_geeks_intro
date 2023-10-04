@@ -19,15 +19,17 @@ export default function Home() {
             <h1 className="text-5xl font-bold italic text-primary text-center">
               A community Platform
             </h1>
-            <p className="py-6 text-center italic">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            <p className="py-6 text-center italic text-secondary">
+             Dev geeks platform is a vibrant hub for developers of all backgrounds and expertise levels to come together and create, learn, and grow. Whether you{`'`}re a seasoned coder or just starting your programming journey, you{`'`}ll find a welcoming and supportive community eager to help you achieve your goals.
+            <br />
+            Dev geeks is your go-to destination for collaboration, learning, and networking in the world of technology
+            
+            {/* 🌐 Connect and Collaborate */}
             </p>
             <a href="https://chat.whatsapp.com/JSdV7cqWtv0AmGY95dqS3g">
-            <button className="btn btn-secondary w-fit font-extrabold italic">
-              Join Here
-            </button>
+              <button className="btn btn-secondary w-fit font-extrabold italic">
+                Join Here
+              </button>
             </a>
           </div>
 
@@ -38,7 +40,7 @@ export default function Home() {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row justify-center align-middle">
           <div className="items-center flex flex-col flex-wrap lg:w-2/4 ">
-            <h1 className="text-5xl font-bold italic text-primary text-center">
+            <h1 className="text-5xl font-bold italic text-primary my-4 text-center ">
               Invite Links
             </h1>
             <div className="w-fit flex flex-wrap justify-center font-mono">
@@ -152,6 +154,32 @@ export default function Home() {
             </div>
           </div>
           <Image src={Innovation} alt={""} />
+        </div>
+      </div>
+      {/* < do's and donts/> */}
+      <div className="hero  bg-base-200">
+        <div className="hero-content text-center flex flex-col w-fit flex-wrap">
+          <div className=" border-dashed border-2 border-neutral flex sm:flex-col flex-row  justify-evenly rounded-md">
+            <div className=" border-dashed border-2 border-neutral m-1 p-1 rounded-md text-center">
+              <h1 className=" text-primary font-bold text-center">Do{`'`}s</h1>
+              <div className="w-full border border-neutral  "></div> 
+              <h1 className=" text-start">Share your knowledge & Queries</h1>
+              <h1 className=" text-start">Do Collaborate</h1>
+              <h1 className=" text-start">Showcase your talent & engage in discussions</h1>
+              <h1 className=" text-start">give credit</h1>
+              <h1 className=" text-start">provide context and report issues</h1>
+              <h1 className=" text-start">help beginners & Learn more</h1>
+            </div>
+            <div className=" border-dashed border-2  border-neutral m-1 p-1 rounded-md text-center">
+            <h1 className="font-bold text-error">Dont{`'`}s</h1>
+              <div className="w-full border border-neutral  "></div> 
+            <h1 className=" text-start">Don{`'`}t Troll or Flame:</h1>
+            <h1 className=" text-start">Don{`'`}t share irrelevant topics or details</h1>
+            <h1 className=" text-start">Don{`'`}t assume authority</h1>
+            <h1 className=" text-start">Don{`'`}t be impatient</h1>
+            {/* <h1>Share content relaetes to development and learning</h1> */}
+            </div>
+          </div>
         </div>
       </div>
       {/* <Footer /> */}
