@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold italic text-primary text-center">
               A community Platform
             </h1>
-            <p className="py-6 text-center italic text-secondary">
+            <p className="py-6 text-center  text-secondary font-mono">
              Dev geeks platform is a vibrant hub for developers of all backgrounds and expertise levels to come together and create, learn, and grow. Whether you{`'`}re a seasoned coder or just starting your programming journey, you{`'`}ll find a welcoming and supportive community eager to help you achieve your goals.
             <br />
             Dev geeks is your go-to destination for collaboration, learning, and networking in the world of technology
@@ -173,7 +173,7 @@ export default function Home() {
             <div className=" border-dashed border-2  border-neutral m-1 p-1 rounded-md text-center">
             <h1 className="font-bold text-error">Dont{`'`}s</h1>
               <div className="w-full border border-neutral  "></div> 
-            <h1 className=" text-start">Don{`'`}t Troll or Flame:</h1>
+            <h1 className=" text-start">Don{`'`}t Troll or Flame</h1>
             <h1 className=" text-start">Don{`'`}t share irrelevant topics or details</h1>
             <h1 className=" text-start">Don{`'`}t assume authority</h1>
             <h1 className=" text-start">Don{`'`}t be impatient</h1>
