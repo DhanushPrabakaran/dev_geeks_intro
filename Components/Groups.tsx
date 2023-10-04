@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Innovation from "@/public/Innovation (2).gif"
+import Innovation from "@/public/Innovation.gif"
 const Groups = () => {
   return (
     <div className="hero min-h-screen bg-base-200">

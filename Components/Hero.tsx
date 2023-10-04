@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import UIux from "@/public/UI-UX design.gif"
+import UIux from "@/public/UIUXdesign.gif"
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
