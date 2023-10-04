@@ -7,7 +7,7 @@ import UIux from "@/public/UIUXdesign.gif";
 export default function Home() {
   return (
     <div>
-      <div className="navbar bg-neutral text-neutral-content justify-center">
+      <div className="navbar bg-neutral text-neutral-content justify-center font-mono">
         <h1 className="text-3xl font-bold">
           <span className="text-secondary pr-1 italic">Dev </span> Geeks
         </h1>
@@ -19,14 +19,14 @@ export default function Home() {
             <h1 className="text-5xl font-bold italic text-primary text-center">
               A community Platform
             </h1>
-            <p className="py-6 text-center ">
+            <p className="py-6 text-center italic">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
             <a href="https://chat.whatsapp.com/JSdV7cqWtv0AmGY95dqS3g">
             <button className="btn btn-secondary w-fit font-extrabold italic">
-              Get Started
+              Join Here
             </button>
             </a>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold italic text-primary text-center">
               Invite Links
             </h1>
-            <div className="w-fit flex flex-wrap justify-center">
+            <div className="w-fit flex flex-wrap justify-center font-mono">
               <a href="https://chat.whatsapp.com/HeUKZYFR9uTLMsT5j4vpSH">
                 <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
