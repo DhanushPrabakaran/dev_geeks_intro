@@ -97,7 +97,14 @@ export default function Home() {
                   </h1>
                 </div>
               </a> */}
-
+              <a href="https://chat.whatsapp.com/H6WGPozDqpaLSlQRtGCSfx">
+                <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
+                  <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
+                  <h1 className=" z-10 inline-block text-center   duration-300 font-bold hover:text-secondary">
+                    Cyber Security
+                  </h1>
+                </div>
+              </a>
               <a href="https://chat.whatsapp.com/LgoPwR7E1aE5ODVzedAcUC">
                 <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
@@ -148,7 +155,7 @@ export default function Home() {
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
                   <h1 className=" z-10 inline-block text-center   duration-300 font-bold hover:text-secondary">
                     Business Systems
-                  </h1>
+                                      </h1>
                 </div>
               </a>
             </div>
