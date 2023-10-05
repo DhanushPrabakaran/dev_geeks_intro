@@ -84,7 +84,7 @@ export default function Home() {
                 <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
                   <h1 className=" z-10 inline-block text-center   duration-300 font-bold hover:text-secondary">
-                    Opensource Contributors
+                    Open Source Contributors
                   </h1>
                 </div>
               </a>
@@ -102,7 +102,7 @@ export default function Home() {
                 <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
                   <h1 className=" z-10 inline-block text-center   duration-300 font-bold hover:text-secondary">
-                    AL / ML Developers
+                    AI / ML Developers
                   </h1>
                 </div>
               </a>
@@ -147,7 +147,7 @@ export default function Home() {
                 <div className=" relative w-fit p-2 h-12 bg-cover hover:bg-primary hover:border-primary-focus hover:border-2 border-primary-content  border-2 rounded-md text-center flex justify-center items-center m-2 cursor-pointer animate-[fade-in_2s_ease-in-out]">
                   <div className=" rounded-md absolute bg-neutral w-full h-full bg-opacity-80"></div>
                   <h1 className=" z-10 inline-block text-center   duration-300 font-bold hover:text-secondary">
-                    Buiness Systems
+                    Business Systems
                   </h1>
                 </div>
               </a>
